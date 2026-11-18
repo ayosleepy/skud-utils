@@ -1,0 +1,24 @@
+{
+    "name": "ayosleepy/skud-utils",
+    "description": "Utilities for SKUD project: formatting and validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ayosleepy",
+            "email": "ayosleepy@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SkudUtils\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
